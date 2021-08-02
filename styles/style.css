@@ -3,23 +3,28 @@
 ************/
 
 /* Popins 700 */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-
 /* font-family: 'Poppins', sans-serif; */
-/* main{
-    display: flex;
-    flex-direction: column;
-} */
 
-/* base styles or utilities */
+/* Niconne normal */
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+/* font-family: 'Niconne', cursive; */
+
+/* ------------------------------
+    base styles or utilities 
+-------------------------------*/
+
 body{
     margin: 0%;
     font-family: 'Poppins', sans-serif;
 
 }
+/* main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
 /*------------------------ 
     Top banner Styles 
 ----------------------- */
@@ -35,9 +40,12 @@ body{
     height: 667px; */
     padding: 49px 88px;
 }
-.banner-info{
+/* top banner hover transform */
 
+.top-banner:hover .button{
+    background-image: linear-gradient(yellow, red);
 }
+
 .banner-title{
     font-size: 64px;
     font-weight: bold;
@@ -64,6 +72,7 @@ body{
     width: 556px;
     height: 438px;
 }
+
 /* ----------------------
     Top players styles 
 ------------------------*/
@@ -100,3 +109,116 @@ body{
     margin: 0%;
     
 }
+/*-------------------- 
+    Footer styles 
+---------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 63px;
+}
+.footer-title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 158px;
+    margin-bottom: 0%;
+    font-family: 'Niconne', cursive;
+    font-size: 72.5806px; 
+    font-weight: normal;
+    color: #10437A;
+}
+.footer-link{
+    font-size: 32px;
+    
+}
+.copyright{
+
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------------------------- 
+        Responsive for Mobile Devices
+------------------------------------------ */
+
+/* Mobile devices */
+
+@media only screen and (max-width:688px) {
+   /* Top banner responsive */
+    .top-banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .banner-title{
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+    }
+    
+    
+    .banner img{
+        height: 259.17144775390625px;
+        width: 329px;
+        padding-top: 50px;
+    }
+
+    /* top player responsive */
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    /* footer styles responsive */
+    footer{
+        margin-bottom: 187px;
+    }
+    .footer-title{
+        font-size: 29px;
+        margin-top: 47px;
+        
+    }
+
+}
+/*Tablet Device responsive*/
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .top-banner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .banner-title{
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+    }
+    .banner img{
+        height: 259.17144775390625px;
+        width: 329px;
+        padding-top: 50px;
+    }    
+
+    /* Players responsive */
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    /* footer responsive */
+    footer{
+        margin-bottom: 187px;
+    }
+    .footer-title{
+        margin-top: 47px;
+    }
+}
+
+/* Thank You Vaia for Watching */
+    
