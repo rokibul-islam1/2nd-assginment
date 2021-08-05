@@ -40,6 +40,7 @@ body {
     height: 667px; */
     padding: 49px 88px;
 }
+
 .banner-title {
     font-size: 64px;
     font-weight: bold;
@@ -48,6 +49,7 @@ body {
     height: 230px;
     padding-bottom: 27px;
 }
+
 .button {
     color: white;
     text-decoration: none;
@@ -58,9 +60,11 @@ body {
     background-color: #E02C6D;
     padding: 10px 24px 10px 24px;
 }
+
 .fa-arrow-right {
     padding-left: 8px;
 }
+
 .banner img {
     width: 556px;
     height: 438px;
@@ -74,8 +78,9 @@ body {
 
 .banner:hover img {
     width: 300px;
-    transform: rotate(20deg);
-    transition: width 5s, transform 5s ;
+    height: 300px;
+    /* transform: rotate(20deg); */
+    transition: width 1s;
 }
 
 /* ----------------------
@@ -178,6 +183,11 @@ footer {
         height: 259.17144775390625px;
         width: 329px;
         padding-top: 50px;
+    }
+    .banner:hover img{
+        width: 380px;
+        height: 400px;
+        transition: width 1s;
     }
 
     /* top player responsive */
