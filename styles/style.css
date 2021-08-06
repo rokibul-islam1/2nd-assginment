@@ -141,6 +141,53 @@ body {
 .h-title{
     color: tomato;
 }
+/* Forms-section */
+/* .m-form{
+    max-width: 75%;
+    margin-left: 250px;
+} */
+.form {
+    padding: 16px;
+    background-color: white;
+   
+  }
+  
+  
+  input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f5f4d7;
+  }
+  
+  
+  hr {
+    border: 1px solid #b48686;
+    margin-bottom: 27px;
+  }
+  
+  
+  .register {
+    background-color: #04aa20;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+  }
+  
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  
+  .sign-in {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
 
 /*-------------------- 
     Footer styles 
@@ -245,8 +292,14 @@ footer {
         width: 300px;
         height: 300px;
     }
+    /* Forms-section */
 
-
+    .m-form{
+        max-width: 90%;
+        margin-top: 30px;
+        
+    }
+    
     /* footer styles responsive */
     footer {
         margin-bottom: 187px;
@@ -285,6 +338,12 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+    }
+    /* Forms-section */
+    .m-form{
+        max-width: 90%;
+        margin-top: 30px;
+        
     }
 
     /* footer responsive */
